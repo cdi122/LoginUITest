@@ -23,10 +23,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="아이디"
         android:textColor="#561689"
-        android:layout_marginTop="15dp"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -37,10 +37,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#561689"
-        android:text="비밀번호"
         android:layout_marginTop="15dp"
-        android:textSize="20sp"/>
+        android:text="비밀번호"
+        android:textColor="#561689"
+        android:textSize="20sp" />
 
     <EditText
         android:layout_width="match_parent"
