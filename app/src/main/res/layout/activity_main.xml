@@ -7,7 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +15,7 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/logo"
+            android:src="@drawable/logo2"
             android:scaleType="centerCrop"/>
 
     </LinearLayout>
@@ -25,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="아이디"
+        android:textColor="#561689"
         android:layout_marginTop="15dp"
         android:textSize="20sp"/>
 
@@ -37,6 +37,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#561689"
         android:text="비밀번호"
         android:layout_marginTop="15dp"
         android:textSize="20sp"/>
